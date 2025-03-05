@@ -1,0 +1,52 @@
+[25-Feb-2025 07:35:26 Europe/Berlin] เริ่มการทำงาน insert_data.php: 2025-02-25 07:35:26
+[25-Feb-2025 07:35:26 Europe/Berlin] ข้อมูล POST ที่ได้รับ: Array
+(
+    [agentId] => Mobile
+    [caNumber] => 2
+    [contractNumber] => Mobile
+    [registeredName] => Mobile
+    [application] => Mobile
+    [managerName] => Mobile
+    [phone] => Mobile
+    [email] => 2@2
+    [serviceCenter] => Mobile
+    [type] => ร้านค้า
+    [cardNumber] => -
+    [contractStartDate] => 2025-02-25
+    [note] => -
+    [page] => 3
+    [editId] => 
+)
+
+[25-Feb-2025 07:35:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nt_database.your_table' doesn't exist in C:\xampp\htdocs\NT_1\db.php:18
+Stack trace:
+#0 C:\xampp\htdocs\NT_1\db.php(18): mysqli->query('SELECT * FROM y...')
+#1 C:\xampp\htdocs\NT_1\insert_data.php(15): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\NT_1\db.php on line 18
+[25-Feb-2025 07:35:32 Europe/Berlin] เริ่มการทำงาน insert_data.php: 2025-02-25 07:35:32
+[25-Feb-2025 07:35:32 Europe/Berlin] ข้อมูล POST ที่ได้รับ: Array
+(
+    [agentId] => Mobile
+    [caNumber] => 2
+    [contractNumber] => Mobile
+    [registeredName] => Mobile
+    [application] => Mobile
+    [managerName] => Mobile
+    [phone] => Mobile
+    [email] => 2@2
+    [serviceCenter] => Mobile
+    [type] => ร้านค้า
+    [cardNumber] => -
+    [contractStartDate] => 2025-02-25
+    [note] => -
+    [page] => 3
+    [editId] => 
+)
+
+[25-Feb-2025 07:35:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nt_database.your_table' doesn't exist in C:\xampp\htdocs\NT_1\db.php:18
+Stack trace:
+#0 C:\xampp\htdocs\NT_1\db.php(18): mysqli->query('SELECT * FROM y...')
+#1 C:\xampp\htdocs\NT_1\insert_data.php(15): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\NT_1\db.php on line 18

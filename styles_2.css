@@ -1,11 +1,9 @@
-/* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     background-color: #b9babb;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -28,12 +26,11 @@ header .form-control {
     font-size: 16px;
 }
 
-/* Cards List */
 .container {
     margin-top: 20px;
     display: flex;
-    flex-direction: column; /* จัดปุ่มเรียงแนวตั้ง */
-    gap: 20px; /* ระยะห่างระหว่างปุ่ม */
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card {
